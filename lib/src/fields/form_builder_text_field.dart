@@ -89,8 +89,7 @@ class FormBuilderTextField extends StatefulWidget {
     this.showCursor,
     this.onSaved,
     this.onTap,
-  })  : assert(initialValue == null || controller == null),
-        super(key: key);
+  });
 
   @override
   FormBuilderTextFieldState createState() => FormBuilderTextFieldState();
